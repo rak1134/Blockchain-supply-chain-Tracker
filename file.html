@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Supply Chain Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Link to external fonts/icons for modern design -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Blockchain-based Food Supply Chain Tracker</h1>
+
+    <!-- Blockchain connection status -->
+    <div id="blockchainStatus">
+      <p><strong>Blockchain Status:</strong> <span id="blockchainConnection">Connecting...</span></p>
+    </div>
+
+    <!-- Form to add food items -->
+    <form id="foodForm">
+      <div class="form-group">
+        <label for="name">Food Name:</label>
+        <input type="text" id="name" name="name" placeholder="e.g., Apples" required>
+      </div>
+
+      <div class="form-group">
+        <label for="origin">Origin:</label>
+        <input type="text" id="origin" name="origin" placeholder="e.g., California" required>
+      </div>
+
+      <div class="form-group">
+        <label for="status">Status:</label>
+        <input type="text" id="status" name="status" placeholder="e.g., Shipped" required>
+      </div>
+
+      <button type="submit">Add Food Item</button>
+    </form>
+
+    <!-- Display list of food items -->
+    <h2>Food Items</h2>
+    <table id="foodTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Origin</th>
+          <th>Status</th>
+          <th>QR Code</th>
+          <th>AR View</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Food items will be dynamically added here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
