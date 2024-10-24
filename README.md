@@ -1,3 +1,4 @@
+![WhatsApp Image 2024-10-24 at 15 53 04_1ca77364](https://github.com/user-attachments/assets/56643872-31f7-4165-8742-39b4aeaf3d48)
 
 # 🍎 Blockchain-based Food Supply Chain Tracker with AR 🥑
 
@@ -46,5 +47,7 @@ To deploy the smart contract on the Ethereum test network:
 - **Transparency**: Ensures food origin and status data cannot be tampered with, increasing trust among consumers.
 - **Engagement**: Uses AR to provide an innovative way to engage consumers, enhancing user experience.
 - **Innovation**: Combines blockchain and AR to solve a real-world problem—food supply chain transparency.
+
+
 
 
